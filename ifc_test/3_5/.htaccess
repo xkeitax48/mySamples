@@ -1,0 +1,4 @@
+AuthUserFile /var/www/html/.htpasswd
+AuthName "Application Development Environment"
+AuthType Basic
+require user ifcapp

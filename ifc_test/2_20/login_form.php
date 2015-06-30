@@ -1,0 +1,20 @@
+<body>
+	<form method="post" action="login.php">
+		email:<br>
+		<input
+			type="text"
+			name="email"
+			value="<?=$this->getValue("posted_email")?>"
+		><br>
+		password:<br>
+		<input
+			type="password"
+			name="password"
+			value=""
+		><br>
+		<input
+			type="submit"
+			value="login"
+		>
+	</form>
+</body>
