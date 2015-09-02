@@ -1,5 +1,4 @@
 <?php
-require_once("DBConfig.php");
 
 class DBConnect
 {
